@@ -1,0 +1,8 @@
+flask
+pandas
+matplotlib
+groq 
+seaborn
+matplotlib
+eportlab
+Python == 3.7.8
