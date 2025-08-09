@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <img src="{{ url_for('static', filename='images/image2.png') }}" class="animated-img" />
+      <p class="tagline">Your AI-Powered Dataset Analyst</p>
+    </div>
+    <div class="right-panel">
+      <div class="brand">AutoBi</div>
+      <div class="login-box">
+        <h2>Welcome</h2>
+        {% if error %}<p style="color:red">{{ error }}</p>{% endif %}
+        <form method="post">
+          <div class="input-box">
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="input-box">
+            <input type="password" name="password" placeholder="Password" required />
+          </div>
+          <button class="login-btn" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
