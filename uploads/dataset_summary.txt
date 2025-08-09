@@ -1,0 +1,42 @@
+Dataset Summary
+
+Columns:
+- Row ID (int64) | Missing: 0
+- Order ID (object) | Missing: 0
+- Order Date (datetime64[ns]) | Missing: 5841
+- Ship Date (object) | Missing: 0
+- Ship Mode (object) | Missing: 0
+- Customer ID (object) | Missing: 0
+- Customer Name (object) | Missing: 0
+- Segment (object) | Missing: 0
+- Country (object) | Missing: 0
+- City (object) | Missing: 0
+- State (object) | Missing: 0
+- Postal Code (float64) | Missing: 11
+- Region (object) | Missing: 0
+- Product ID (object) | Missing: 0
+- Category (object) | Missing: 0
+- Sub-Category (object) | Missing: 0
+- Product Name (object) | Missing: 0
+- Sales (float64) | Missing: 0
+
+Basic Statistics:
+                count unique              top  freq                           mean                  min                  25%                  50%                  75%                  max           std
+Row ID         9800.0    NaN              NaN   NaN                         4900.5                  1.0              2450.75               4900.5              7350.25               9800.0   2829.160653
+Order ID         9800   4922   CA-2018-100111    14                            NaN                  NaN                  NaN                  NaN                  NaN                  NaN           NaN
+Order Date       3959    NaN              NaN   NaN  2017-03-14 18:19:11.199798016  2015-01-02 00:00:00  2016-04-05 00:00:00  2017-05-02 00:00:00  2018-03-07 00:00:00  2018-12-11 00:00:00           NaN
+Ship Date        9800   1326       26/09/2018    34                            NaN                  NaN                  NaN                  NaN                  NaN                  NaN           NaN
+Ship Mode        9800      4   Standard Class  5859                            NaN                  NaN                  NaN                  NaN                  NaN                  NaN           NaN
+Customer ID      9800    793         WB-21850    35                            NaN                  NaN                  NaN                  NaN                  NaN                  NaN           NaN
+Customer Name    9800    793    William Brown    35                            NaN                  NaN                  NaN                  NaN                  NaN                  NaN           NaN
+Segment          9800      3         Consumer  5101                            NaN                  NaN                  NaN                  NaN                  NaN                  NaN           NaN
+Country          9800      1    United States  9800                            NaN                  NaN                  NaN                  NaN                  NaN                  NaN           NaN
+City             9800    529    New York City   891                            NaN                  NaN                  NaN                  NaN                  NaN                  NaN           NaN
+State            9800     49       California  1946                            NaN                  NaN                  NaN                  NaN                  NaN                  NaN           NaN
+Postal Code    9789.0    NaN              NaN   NaN                   55273.322403               1040.0              23223.0              58103.0              90008.0              99301.0  32041.223413
+Region           9800      4             West  3140                            NaN                  NaN                  NaN                  NaN                  NaN                  NaN           NaN
+Product ID       9800   1861  OFF-PA-10001970    19                            NaN                  NaN                  NaN                  NaN                  NaN                  NaN           NaN
+Category         9800      3  Office Supplies  5909                            NaN                  NaN                  NaN                  NaN                  NaN                  NaN           NaN
+Sub-Category     9800     17          Binders  1492                            NaN                  NaN                  NaN                  NaN                  NaN                  NaN           NaN
+Product Name     9800   1849  Staple envelope    47                            NaN                  NaN                  NaN                  NaN                  NaN                  NaN           NaN
+Sales          9800.0    NaN              NaN   NaN                     230.769059                0.444               17.248                54.49              210.605             22638.48    626.651875
