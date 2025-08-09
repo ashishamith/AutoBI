@@ -57,7 +57,7 @@ AutoBI/
 ## ⚙️ Installation & Setup
 **1. Clone Repository**
 ```bash
-git clone https://github.com/your-username/AutoBI.git
+git clone https://github.com/ashishamith/AutoBI
 cd AutoBI
 
 
@@ -111,4 +111,5 @@ Upward trend in overall performance.
 
 Suggestions:
 Invest more in high-performing regions.
+
 Graph – Auto-generated chart based on question.
